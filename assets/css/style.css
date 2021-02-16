@@ -992,20 +992,23 @@ footer .social svg{
     font-size: 28px;
 	}
 	#home .home-slider .slider-img{
-		width:380px;
+		width:350px;
 	}
 	#about .about-img img {
     height: 370px;
 	}
 	#about .about-cnt {
     padding: 10px 20px;
-    height:375px;
+    height:385px;
 	}
 	#about .about-cnt h3{
 		margin:0px;
 	}
+	#about .about-cnt p{
+		line-height: 22px;
+	}
 	#service h3{
-		font-size:22px;
+		font-size:20px;
 	}
 	#clients .clients-cnt {
     padding-left: 14px;
@@ -1013,7 +1016,7 @@ footer .social svg{
 	#clients .clients-cnt p {
     line-height: 18px;
 	}
-	#newsletter form li:{
+	#newsletter form li{
 		margin-bottom:10px;
 	}
 	footer .social ul li {
