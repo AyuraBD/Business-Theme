@@ -984,7 +984,10 @@ footer .social svg{
     bottom: 30px;
   }
 }
-@media (max-width:540px){
+@media (max-width:440px){
+	#home .home-cnt form li:not(:last-child) {
+    margin-bottom: 10px;
+	}
 	.heading h2 {
     font-size: 28px;
 	}
@@ -1009,5 +1012,14 @@ footer .social svg{
 	}
 	#clients .clients-cnt p {
     line-height: 18px;
+	}
+	#newsletter form li:{
+		margin-bottom:10px;
+	}
+	footer .social ul li {
+    margin: 0px 5px;
+    height: 40px;
+    width: 40px;
+    padding: 4px 10px;
 	}
 }
