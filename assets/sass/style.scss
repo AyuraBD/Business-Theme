@@ -1,0 +1,111 @@
+
+body,*, html{
+	margin:0px;
+	padding:0px;
+}
+/*----header-----*/
+header{
+	.row{
+		padding:15px 0px;
+	}
+	
+	.menu ul{
+		text-align:right;
+		float:right;
+		margin-top:10px;
+		li{
+			list-style:none;
+			display:inline-block;
+			margin-left:15px;
+			text-align:center;
+			padding:3px 7px;
+			border-radius:3px;
+			a{
+				text-decoration:none;
+				color:gray;
+			}
+			a:hover{
+				text-decoration:none;
+			}
+		}
+		li:hover{
+			background-color:#ffbb42;
+			transition:0.3s;
+		}
+	}
+}
+header .head-logo{
+	height:auto;
+	width:100%;
+	text-align:left;
+}
+header .head-logo a{
+	float:left;
+}
+/*----header end-----*/
+/*----home-----*/
+#home{
+	background-color:#709dca;
+	padding:0px;
+	.home-cnt{
+		margin-top:60px;
+		h1,p{
+			color:white;
+			font-weight:600;
+		}
+		form i{
+			background-color:white;
+			border:1px solid black;
+		}
+		form li{
+			list-style:none;
+			display:inline-block;
+			margin-bottom:50px;
+			input{
+				width:250px;
+				padding:5px 10px;
+				text-align:left;
+				border-radius:3px;
+				outline:0;
+				border:none;
+			}
+			button{
+				background-color:#ffbb42;
+				color:white;
+				border:none;
+				margin-bottom:3px;
+			}
+		}
+	}
+	.slide img{
+		width:600px;
+		margin:0 auto;
+	}
+}
+/*----home end-----*/
+.input-icons i { 
+            position: absolute; 
+        } 
+          
+        .input-icons { 
+            width: 100%; 
+            margin-bottom: 10px; 
+        } 
+          
+        .icon { 
+            padding: 10px; 
+            color: green; 
+            min-width: 50px; 
+            text-align: center; 
+        } 
+          
+        .input-field { 
+            width: 100%; 
+            padding: 10px; 
+            text-align: center; 
+        } 
+          
+        h2 { 
+            color: green; 
+        } 
+
