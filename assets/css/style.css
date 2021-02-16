@@ -994,6 +994,9 @@ footer .social svg{
 	#home .home-slider .single img{
 		width:310px!important;
 	}
+	#home .home-cnt form li input {
+    width: 180px;
+	}
 	#about .about-img img {
     height: 370px;
 	}
